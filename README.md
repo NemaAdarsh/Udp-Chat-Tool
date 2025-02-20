@@ -1,6 +1,6 @@
 # Computer Networks UDP Chat Tool
 
-![image](https://github.com/user-attachments/assets/9188722f-3504-43e0-ae0d-42088360a22e)
+![image](https://github.com/user-attachments/assets/a66f46e4-89dc-4bec-8de3-411256aea648)
 
 
 ## Overview
