@@ -28,19 +28,12 @@ To use this tool, ensure the following requirements are met:
    - Run the command: `ipconfig`
    - Note the **IPv4 Address** (e.g., `192.168.x.x`).
 
-3. **Allow UDP Traffic Through Firewall** (if needed)
-   - Open Command Prompt as Administrator.
-   - Run the following command:
-     ```sh
-     netsh advfirewall firewall add rule name="Allow UDP 12345" protocol=UDP dir=in localport=12345 action=allow
-     ```
-
-4. **Run the Application**
+3. **Run the Application**
    - Open `Computer_Networks_Lab_3.exe` on both computers.
    - Enter your partner’s IP in the **Connection Settings** and click **Connect**.
    - Start chatting!
 
-5. **Monitor Packets with Wireshark** (Optional)
+4. **Monitor Packets with Wireshark** (Optional)
    - Open **Wireshark** and start capturing packets.
    - Use the filter: `udp.port == 12345` to view only chat-related UDP packets.
 
